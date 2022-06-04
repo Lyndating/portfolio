@@ -14,21 +14,21 @@ const Header = () => (
             </Link>
         </Div1>
         <Div2>
-            <li>
+            <li style={{ listStyleType:"none", marginRight:"15px",marginTop:"10px"}}>
                 <Link href='/projects'>
                     <NavLinks>
                         Projects
                     </NavLinks>
                 </Link>
             </li>
-            <li>
+            <li style={{ listStyleType:"none",marginRight:"15px",marginTop:"10px"}}>
                 <Link href='/projects'>
                     <NavLinks>
                         Technologies
                     </NavLinks>
                 </Link>
             </li>
-            <li>
+            <li style={{ listStyleType:"none",marginTop:"10px"}}>
                 <Link href='/projects'>
                     <NavLinks>
                         About
