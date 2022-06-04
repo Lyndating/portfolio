@@ -1,0 +1,47 @@
+export const projectList = [
+    {
+        title: "Project 1",
+        description: "Using HTML, CSS and JavaScript to build a simple 'Tic Tac Toe' game.",
+        image:"",
+        tags: [""],
+        source: "https://github.com/Lyndating/TicTacToe",
+        demo: 'https://lyndating.github.io/TicTacToe/',
+        id: 0,
+    },
+    {
+        title: "Project 2",
+        description: "A forum web application using Ruby on Rails, PostgresSQL, MaterializeCSS and Cloudinary.",
+        image:"",
+        tags: [""],
+        source: "https://github.com/Lyndating/Project1_gaddit",
+        demo: 'https://gaddit.herokuapp.com',
+        id: 1,
+    },
+    {
+        title: "Project 3",
+        description: "Expense Trackr application created with React.js, Ruby on Rails, PostgresSQL, Bootstrap and Cloudinary.",
+        image:"",
+        tags: [""],
+        source: "https://github.com/Lyndating/react-expense-trackr",
+        demo: 'https://expense-trackr0.netlify.app',
+        id: 2,
+    },
+    {
+        title: "Project 4",
+        description: "React-shopping-app built by React.js, Express.js, Firebase DB and Firebase cloud functions.",
+        image:"",
+        tags: [""],
+        source: "https://github.com/Lyndating/react-shopping-app",
+        demo: 'https://shopping-react-app-deecf.web.app',
+        id: 3,
+    },
+    {
+        title: "Project 5",
+        description: "",
+        image:"",
+        tags: [""],
+        source: "",
+        demo: '',
+        id: 4,
+    }
+];
