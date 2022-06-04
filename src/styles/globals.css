@@ -6,7 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     /* background-image: url("../styles/background-color.png");
     opacity: 0.75; */
-    background-color: #131921;
+    background-image: url("../styles/images/background-color.png")
 }
 
 a {
