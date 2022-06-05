@@ -3,6 +3,7 @@ import { Layout } from '../layout/Layout';
 import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import HomeSection from '../components/Home/HomeSection';
+import About from '../components/About/About';
 import { Section } from '../styles/GlobalComponents/Section';
 
 const Home = (props) => {
@@ -12,7 +13,9 @@ const Home = (props) => {
         <Section grid>
           <HomeSection/>
         </Section> 
+        <About/>
         <Projects/>
+        <br/>
         <Technologies/>
       </Layout>
 
