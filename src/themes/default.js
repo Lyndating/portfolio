@@ -1,8 +1,8 @@
 export default {
   // fonts
   fonts: {
-    title: "Space Grotesk, sans-serif",
-    main: "Space Grotesk, sans-serif"
+    title: "Raleway, sans-serif",
+    main: "Raleway, sans-serif"
   },
   // Colors for layout
   colors: {
