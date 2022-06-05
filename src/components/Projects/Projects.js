@@ -3,43 +3,37 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { projectList } from '../data/Data';
 
-
 const Projects = () => (
-
-    <Section nopadding id="projects">
-        <SectionDivider/>
-        <SectionTitle main>Projects</SectionTitle>
-        <GridContainer>
-            {projectList.map(project => (
-                <BlogCard key={project.id}>
-                    <Img src={project.image}/>
-                    <TitleContent>
-                        <HeaderThree title>
-                            {project.title}
-                        </HeaderThree>
-                        <Hr/>
-                    </TitleContent>
-                    <CardInfo>
-                        {project.description}
-                    </CardInfo>
-                    <div>
-                        <TitleContent>Technologies</TitleContent>
-                        <TagList>
-                            {project.tags.map((tag, i)=>(
-                                <Tag key={i}>{tag}</Tag>
-                            ))}
-                        </TagList>
-                    </div>
-                    <UtilityList>
-                        <ExternalLinks href={project.demo}>Demo</ExternalLinks>
-                        <ExternalLinks href={project.source}>Source</ExternalLinks>
-                    </UtilityList>
-                </BlogCard>
-            ))
-
-            }
-        </GridContainer>
-    </Section>
+  <Section nopadding id="projects">
+    <SectionDivider />
+    <SectionTitle main>Projects</SectionTitle>
+    <GridContainer >
+      {projectList.map(({id, image,title,description, tags, source, demo}) => {
+        return (
+          <BlogCard key={id} className="project-card">
+          <Img src={image} />
+            <TitleContent>
+              <HeaderThree title>{title}</HeaderThree>
+              <Hr />
+            </TitleContent>
+            <CardInfo className="card-info">{description}</CardInfo>
+            <div>
+              {/* <TitleContent>Stack</TitleContent> */}
+              <TagList>
+                {tags.map((t, i) => {
+                  return <Tag key={i}>{t}</Tag>;
+                })}
+              </TagList>
+            </div>
+            <UtilityList>
+              <ExternalLinks href={demo}>Live Demo</ExternalLinks>
+              <ExternalLinks href={source}>Github Source</ExternalLinks>
+            </UtilityList>
+          </BlogCard>
+        );
+      })}
+    </GridContainer>
+  </Section>
 );
 
 export default Projects;
