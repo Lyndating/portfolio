@@ -1,9 +1,9 @@
 export const projectList = [
     {
-        title: "Project 1",
-        description: "Using HTML, CSS and JavaScript to build a simple 'Tic Tac Toe' game.",
-        image:"",
-        tags: [""],
+        title: "Tic Tac Toe",
+        description: "I completed the game during my first month of GA Bootcamp using HTML, CSS and JavaScript. It was first designed with an easy AI mode, but I refactored it to 2-player mode only.",
+        image:"./images/Project1.png",
+        tags: ["HTML", "JavaScript", "CSS"],
         source: "https://github.com/Lyndating/TicTacToe",
         demo: 'https://lyndating.github.io/TicTacToe/',
         id: 0,
@@ -11,17 +11,17 @@ export const projectList = [
     {
         title: "Project 2",
         description: "A forum web application using Ruby on Rails, PostgresSQL, MaterializeCSS and Cloudinary.",
-        image:"",
-        tags: [""],
+        image:"./images/Project2.png",
+        tags: ["Rails", "PostgresSQL", "MaterializeCSS"],
         source: "https://github.com/Lyndating/Project1_gaddit",
         demo: 'https://gaddit.herokuapp.com',
         id: 1,
     },
     {
         title: "Project 3",
-        description: "Expense Trackr application created with React.js, Ruby on Rails, PostgresSQL, Bootstrap and Cloudinary.",
-        image:"",
-        tags: [""],
+        description: "Expense Trackr application created with React.js, Rails, PostgresSQL, Bootstrap and Cloudinary.",
+        image:"./images/Project3.png",
+        tags: ["React.js", "Rails", "PostgresSQL", "Bootstrap"],
         source: "https://github.com/Lyndating/react-expense-trackr",
         demo: 'https://expense-trackr0.netlify.app',
         id: 2,
@@ -29,19 +29,19 @@ export const projectList = [
     {
         title: "Project 4",
         description: "React-shopping-app built by React.js, Express.js, Firebase DB and Firebase cloud functions.",
-        image:"",
-        tags: [""],
+        image:"./images/Project4.png",
+        tags: ["React.js","Firebase", "Express.js", "Cloud Functions"],
         source: "https://github.com/Lyndating/react-shopping-app",
         demo: 'https://shopping-react-app-deecf.web.app',
         id: 3,
     },
-    {
-        title: "Project 5",
-        description: "",
-        image:"",
-        tags: [""],
-        source: "",
-        demo: '',
-        id: 4,
-    }
+    // {
+    //     title: "Project 5",
+    //     description: "Coming Soon",
+    //     image:"",
+    //     tags: ["Next.js", "Styled-Components", "Rough-Notation"],
+    //     source: "https://github.com/Lyndating",
+    //     demo: '',
+    //     id: 4,
+    // }
 ];
