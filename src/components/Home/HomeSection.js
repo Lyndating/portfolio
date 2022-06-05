@@ -7,14 +7,14 @@ const HomeSection = (props) => (
     <Section row nopadding marginbottom>
         <MainSection>
             <SectionTitle main center>
-                Hi I'm Ting Luo <br/>
-                Software Engineer
+                Hello <br/>
+                I am Ting Luo
             </SectionTitle>
             <SectionText>
-                Believe Technology is changing our life | Love to learn & improve everyday 
+                Software Engineer | Love to learn & improve everyday 
             </SectionText>
             <Button onClick={()=> window.location ="https://github.com/Lyndating"}>
-                Learn More
+                Explore!
             </Button>
         </MainSection>
     </Section>
