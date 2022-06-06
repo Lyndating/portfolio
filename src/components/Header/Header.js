@@ -1,51 +1,64 @@
 import React from 'react';
 import Link from 'next/link';
-import { Container, Div1, Div2,Div3, NavLinks,SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2,Div3, NavLinks,SocialIcons ,HeaderLi} from './HeaderStyles';
 import { AiFillSmile, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import ThemeToggle from '../../styles/themeToggle';
 
-
-const Header = () => ( 
+const Header = () => { 
+    const changeModeHandler=(colorMode)=>{
+        console.log(colorMode);
+    }
+    
+    return(
     <Container>
         <Div1>
             <Link href="/">
-                <a style={{display: "flex", alignItems:"center", color:"white", top:"0", left:"0",position:"absolute"}}>
-                    <AiFillSmile size="3.5rem"/><span></span>
+                <a style={{display: "flex", alignItems:"center", color:"white",}}>
+                    <AiFillSmile size="3rem"/><span style={{fontSize:"2rem", marginLeft:"5px"}}> &lt;Ting&gt; </span>
                 </a>
             </Link>
         </Div1>
         <Div2>
-            <li style={{ listStyleType:"none", marginRight:"15px",marginTop:"10px"}}>
-                <Link href='/projects'>
-                    <NavLinks>
-                        Projects
-                    </NavLinks>
-                </Link>
-            </li>
-            <li style={{ listStyleType:"none",marginRight:"15px",marginTop:"10px"}}>
-                <Link href='/projects'>
-                    <NavLinks>
-                        Technologies
-                    </NavLinks>
-                </Link>
-            </li>
-            <li style={{ listStyleType:"none",marginTop:"10px"}}>
-                <Link href='/projects'>
+            <HeaderLi >
+                <Link href='#about'>
                     <NavLinks>
                         About
                     </NavLinks>
                 </Link>
-            </li>
+            </HeaderLi>
+            <HeaderLi >
+                <Link href='#projects'>
+                    <NavLinks>
+                        Projects
+                    </NavLinks>
+                </Link>
+            </HeaderLi>
+            <HeaderLi >
+                <Link href='#technologies'>
+                    <NavLinks>
+                        Technologies
+                    </NavLinks>
+                </Link>
+            </HeaderLi>
+            <HeaderLi >
+                <NavLinks href='/resume-Ting-Luo.pdf' alt="resume" target="_blank" download>
+                        Resume
+                </NavLinks>
+            </HeaderLi>
         </Div2>
         <Div3>
             <SocialIcons href='https://github.com/Lyndating'>
                 <AiFillGithub size="2.5rem"/>
             </SocialIcons>
-            <SocialIcons href='https://github.com/Lyndating'>
+            <SocialIcons href='https://www.linkedin.com/in/lynn-ting-luo/'>
                 <AiFillLinkedin size="2.5rem"/>
+            </SocialIcons>
+            <SocialIcons >
+                <ThemeToggle size="2.5rem" onClick={changeModeHandler}/>
             </SocialIcons>
         </Div3>
     </Container>
 
-);
+)};
 
 export default Header; 
