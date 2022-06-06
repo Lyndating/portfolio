@@ -3,15 +3,15 @@ import { Section, SectionTitle, SectionDivider, SectionText } from "../../styles
 import { List, ListContainer, ListItems, ListItem, ListTitle, ListIcon } from "./TechnologiesStyles";
 import {DiRuby, DiReact, DiRor,DiPython,DiPostgresql, DiNodejsSmall,DiMongodb, DiJavascript, DiJqueryLogo,DiHtml5,DiFirebase,DiCss3,DiBootstrap} from 'react-icons/di';
 import {RiVuejsFill} from 'react-icons/ri';
-import {SiDocker, SiAmazonaws} from 'react-icons/si';
+import {SiDocker, SiAmazonaws, SiFirebase} from 'react-icons/si';
 
 
 const Technologies = () =>  (
-  <Section id="technology">
+  <Section id="technologies">
     <SectionDivider/>
     <br/>
     <br/>
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Skills & Tools</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in the web developement world. From back-end to Design and still keep learning new ones.
     </SectionText>
@@ -30,19 +30,14 @@ const Technologies = () =>  (
           <ListTitle>JavaScript</ListTitle>
           </ListItem>
           <ListItem>
-            <DiRuby size="8rem"/>
-          <ListTitle>Ruby</ListTitle>
+            <DiJqueryLogo size="8rem"/>
+            <ListTitle>JQuery</ListTitle>
           </ListItem>
         </ListItems>
+
+
         <ListItems>
-          <ListItem>
-            <DiRor size="8rem"/>
-          <ListTitle>Rails</ListTitle>
-          </ListItem>
-          <ListItem>
-            <DiJqueryLogo size="8rem"/>
-          <ListTitle>JQuery</ListTitle>
-          </ListItem>
+
           <ListItem>
             <DiReact size="8rem"/>
           <ListTitle>React</ListTitle>
@@ -51,35 +46,51 @@ const Technologies = () =>  (
             <DiNodejsSmall size="8rem"/>
           <ListTitle>Node</ListTitle>
           </ListItem>
-        </ListItems>
-        <ListItems>
           <ListItem>
             <RiVuejsFill size="8rem"/>
             <ListTitle>Vue</ListTitle>
+          </ListItem>
+          <ListItem>
+            <DiBootstrap size="8rem"/>
+          <ListTitle>Bootstrap</ListTitle>
+          </ListItem>
+        </ListItems>
+
+
+        <ListItems>
+          <ListItem>
+            <DiRor size="8rem"/>
+          <ListTitle>Rails</ListTitle>
+          </ListItem>
+          <ListItem>
+            <DiRuby size="8rem"/>
+          <ListTitle>Ruby</ListTitle>
           </ListItem>
           <ListItem>
             <DiPostgresql size="8rem"/>
           <ListTitle>PostgresSQL</ListTitle>
           </ListItem>
           <ListItem>
-            <DiBootstrap size="8rem"/>
-          <ListTitle>Bootstrap</ListTitle>
-          </ListItem>
-          <ListItem>
             <DiFirebase size="8rem"/>
           <ListTitle>Firebase</ListTitle>
           </ListItem>
         </ListItems>
+
+        
         <ListItems>
-          <ListItem coming>
+          <ListItem >
+            <SiFirebase size="8rem"/>
+          <ListTitle>Cloud Function</ListTitle>
+          </ListItem>
+          <ListItem >
             <DiPython size="8rem"/>
-          <ListTitle>Python-Learning</ListTitle>
+          <ListTitle>Python</ListTitle>
           </ListItem>
-          <ListItem coming>
+          <ListItem >
             <SiDocker size="8rem"/>
-          <ListTitle>Docker-Learning</ListTitle>
+          <ListTitle>Docker</ListTitle>
           </ListItem>
-          <ListItem coming>
+          <ListItem >
             <SiAmazonaws size="8rem"/>
             <ListTitle>Coming Soon</ListTitle>
           </ListItem>
