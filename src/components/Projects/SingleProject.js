@@ -3,7 +3,9 @@ import { projectList } from '../data/Data';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 
 const SingleProject = ({id, image,title,description, tags, source, demo}) => {
-    
+    if(description.includes("OnGoing")) {
+        imageDisplay = "blur"
+    }
   return (
         <BlogCard key={id} className="project-card">
           <Img src={image} />
