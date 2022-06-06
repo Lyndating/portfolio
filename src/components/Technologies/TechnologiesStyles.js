@@ -35,7 +35,7 @@ export const ListContainer = styled.div`
 `
 
 export const ListTitle = styled.h4`
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 30px;
     color: #fff;
@@ -48,7 +48,7 @@ export const ListTitle = styled.h4`
     }
 
     @media ${props => props.theme.breakpoints.sm} {
-        font-size: 20px;
+        font-size: 18px;
         ling-height: 28px;
         margin-bottom: 4px;
         letter-spacing: 0.02em;
@@ -74,10 +74,15 @@ export const ListParagraph = styled.p`
 
 export const ListItems = styled.li`
     max-width: 90vw;
-    display:flex;
-    flex-direction: row;
+    display:grid;
+    grid-template-columns:auto auto auto auto;
     height: 120px;
     justify-content: space-evenly;
+    @media ${props => props.theme.breakpoints.md} {
+        grid-template-columns: auto auto;
+        height: 240px;
+    }
+
 `
 
 export const ListItem = styled.div`
@@ -93,7 +98,8 @@ export const ListItem = styled.div`
     @media ${props => props.theme.breakpoints.sm} {
         margin-bottom: 14px;
         max-width: 320px;
-        flex-direction: row;
+        width: 50%;
+        
     }
 `
 
