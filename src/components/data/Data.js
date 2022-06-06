@@ -1,7 +1,7 @@
 export const projectList = [
     {
         title: "Tic Tac Toe",
-        description: "I completed the game during my first month of GA Bootcamp using HTML, CSS and JavaScript. It was first designed with an easy AI mode, but I refactored it to 2-player mode only.",
+        description: "I completed the game during my first month of GA Bootcamp using HTML, CSS and JavaScript.",
         image:"./images/Project1.png",
         tags: ["HTML", "JavaScript", "CSS"],
         source: "https://github.com/Lyndating/TicTacToe",
@@ -9,7 +9,7 @@ export const projectList = [
         id: 0,
     },
     {
-        title: "Project 2",
+        title: "Gaddit",
         description: "A forum web application using Ruby on Rails, PostgresSQL, MaterializeCSS and Cloudinary.",
         image:"./images/Project2.png",
         tags: ["Rails", "PostgresSQL", "MaterializeCSS"],
@@ -18,7 +18,7 @@ export const projectList = [
         id: 1,
     },
     {
-        title: "Project 3",
+        title: "Expense Trackr",
         description: "Expense Trackr application created with React.js, Rails, PostgresSQL, Bootstrap and Cloudinary.",
         image:"./images/Project3.png",
         tags: ["React.js", "Rails", "PostgresSQL", "Bootstrap"],
@@ -27,7 +27,7 @@ export const projectList = [
         id: 2,
     },
     {
-        title: "Project 4",
+        title: "Shop Now",
         description: "React-shopping-app built by React.js, Express.js, Firebase DB and Firebase cloud functions.",
         image:"./images/Project4.png",
         tags: ["React.js","Firebase", "Express.js", "Cloud Functions"],
@@ -35,13 +35,22 @@ export const projectList = [
         demo: 'https://shopping-react-app-deecf.web.app',
         id: 3,
     },
-    // {
-    //     title: "Project 5",
-    //     description: "Coming Soon",
-    //     image:"",
-    //     tags: ["Next.js", "Styled-Components", "Rough-Notation"],
-    //     source: "https://github.com/Lyndating",
-    //     demo: '',
-    //     id: 4,
-    // }
+    {
+        title: "JS 30days Challenge",
+        description: "OnGoing project: 30 days vanilla javascript coding challenge. Try to get more pratices.",
+        image:"./images/Project5.png",
+        tags: ["Javascript"],
+        source: "https://github.com/Lyndating",
+        demo: '',
+        id: 4,
+    },
+        {
+        title: "Project Euler Algorithm",
+        description: "OnGoing project: keep working on the quetions by using different tech languages.",
+        image:"./images/Project6.png",
+        tags: ["Ruby","Pyhton", "Javascript"],
+        source: "https://github.com/Lyndating",
+        demo: '#',
+        id: 5,
+    }
 ];
