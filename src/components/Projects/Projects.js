@@ -2,37 +2,30 @@ import React from 'react';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents/Section';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { projectList } from '../data/Data';
+import SingleProject from './SingleProject';
 
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section  id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer >
       {projectList.map(({id, image,title,description, tags, source, demo}) => {
         return (
-          <BlogCard key={id} className="project-card">
-          <Img src={image} />
-            <TitleContent>
-              <HeaderThree title>{title}</HeaderThree>
-              <Hr />
-            </TitleContent>
-            <CardInfo className="card-info">{description}</CardInfo>
-            <div>
-              {/* <TitleContent>Stack</TitleContent> */}
-              <TagList>
-                {tags.map((t, i) => {
-                  return <Tag key={i}>{t}</Tag>;
-                })}
-              </TagList>
-            </div>
-            <UtilityList>
-              <ExternalLinks href={demo}>Live Demo</ExternalLinks>
-              <ExternalLinks href={source}>Github Source</ExternalLinks>
-            </UtilityList>
-          </BlogCard>
+            <SingleProject
+                key={id}
+                id={id}
+                image={image}
+                title={title}
+                description={description}
+                tags={tags}
+                source={source}
+                demo={demo}
+            />
         );
       })}
     </GridContainer>
+    <br/>
+    <br/>
   </Section>
 );
 
