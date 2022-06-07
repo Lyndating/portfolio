@@ -40,8 +40,8 @@ export const projectList = [
         description: "OnGoing project: 30 days vanilla javascript coding challenge. Try to get more pratices.",
         image:"./images/Project5.png",
         tags: ["Javascript"],
-        source: "https://github.com/Lyndating",
-        demo: '',
+        source: "https://github.com/Lyndating/Javascript-30",
+        demo: '#',
         id: 4,
     },
         {
@@ -49,7 +49,7 @@ export const projectList = [
         description: "OnGoing project: keep working on the quetions by using different programming languages.",
         image:"./images/Project6.png",
         tags: ["Ruby","Pyhton", "Javascript"],
-        source: "https://github.com/Lyndating",
+        source: "https://github.com/Lyndating/euler-projects",
         demo: '#',
         id: 5,
     }

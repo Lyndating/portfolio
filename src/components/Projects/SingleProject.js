@@ -1,8 +1,16 @@
-import React from 'react'
-import { projectList } from '../data/Data';
+import React,{useState,useEffect} from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 
 const SingleProject = ({id, image,title,description, tags, source, demo}) => {
+    const [disabled,setDisabled]=useState(false);
+    useEffect(()=>{
+        if(demo ==="#"){
+            setDisabled(true);
+        }else{
+            setDisabled(false);
+        }
+    },[]);
+
   return (
         <BlogCard key={id} className="project-card">
           <Img src={image} />
@@ -19,7 +27,7 @@ const SingleProject = ({id, image,title,description, tags, source, demo}) => {
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={demo} target="_blank">Live Demo</ExternalLinks>
+              <ExternalLinks disabled={disabled} href={demo} target="_blank">Live Demo</ExternalLinks>
               <ExternalLinks href={source} target="_blank">Github Source</ExternalLinks>
             </UtilityList>
         </BlogCard>

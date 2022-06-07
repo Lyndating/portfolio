@@ -92,6 +92,8 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
+pointer-events: ${props=> props.disabled? "none" : ""};
+cursor: ${props=> props.disabled? "default" : "pointer"};
 color:#d4c0c0;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
