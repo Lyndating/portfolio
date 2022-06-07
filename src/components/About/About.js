@@ -16,7 +16,7 @@ const About = () => {
         </RoughNotation>
         </SectionText>
         <SectionText>
-         I was just graduated from General Assembly SEI Bootcamp course where I spent  3 months (500+ hours) learning the fundamentals of both <RoughNotation type="highlight" color="#d057a1" >front-end</RoughNotation> and <RoughNotation type="highlight" color="#d057a1" >back-end</RoughNotation> web development. 
+         I was just graduated from General Assembly SEI Bootcamp course where I spent  3 months (500+ hours) learning the fundamentals of both <RoughNotation type="highlight" color="#d057a1" >front-end</RoughNotation> and <RoughNotation type="highlight" color="#c79d13" >back-end</RoughNotation> web development. 
         </SectionText>
         <SectionText>
          As a <RoughNotation type="box" color="black"> highly motivated</RoughNotation> and proactive developer with passion and a growth mindset, I bring a balance of critical thinking, problem-solving and creativity into life.
