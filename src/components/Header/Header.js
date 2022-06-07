@@ -5,10 +5,6 @@ import { AiFillSmile, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import ThemeToggle from '../../styles/themeToggle';
 
 const Header = () => { 
-    const changeModeHandler=(colorMode)=>{
-        console.log(colorMode);
-    }
-    
     return(
     <Container>
         <Div1>
@@ -54,7 +50,7 @@ const Header = () => {
                 <AiFillLinkedin size="2.5rem"/>
             </SocialIcons>
             <SocialIcons >
-                <ThemeToggle size="2.5rem" onClick={changeModeHandler}/>
+                <ThemeToggle size="2.5rem" />
             </SocialIcons>
         </Div3>
     </Container>
