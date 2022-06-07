@@ -20,8 +20,8 @@ const SingleProject = ({id, image,title,description, tags, source, demo}) => {
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={demo}>Live Demo</ExternalLinks>
-              <ExternalLinks href={source}>Github Source</ExternalLinks>
+              <ExternalLinks href={demo} target="_blank">Live Demo</ExternalLinks>
+              <ExternalLinks href={source} target="_blank">Github Source</ExternalLinks>
             </UtilityList>
         </BlogCard>
   )

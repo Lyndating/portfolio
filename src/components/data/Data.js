@@ -46,7 +46,7 @@ export const projectList = [
     },
         {
         title: "Project Euler Algorithm",
-        description: "OnGoing project: keep working on the quetions by using different tech languages.",
+        description: "OnGoing project: keep working on the quetions by using different program languages.",
         image:"./images/Project6.png",
         tags: ["Ruby","Pyhton", "Javascript"],
         source: "https://github.com/Lyndating",
