@@ -12,7 +12,6 @@ const SingleProject = ({id, image,title,description, tags, source, demo}) => {
             </TitleContent>
             <CardInfo className="card-info">{description}</CardInfo>
             <div>
-              {/* <TitleContent>Stack</TitleContent> */}
               <TagList>
                 {tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
