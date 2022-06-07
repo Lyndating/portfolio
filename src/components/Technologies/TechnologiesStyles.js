@@ -24,15 +24,6 @@ export const List = styled.ul`
     }
 `
 
-export const ListContainer = styled.div`
-    display:flex;
-    flex-direcion: column;
-
-    @media ${props => props.theme.breakpoints.sm} {
-        display: flex;
-        margin-left: 20px;
-    }
-`
 
 export const ListTitle = styled.h4`
     font-size: 20px;
@@ -56,23 +47,8 @@ export const ListTitle = styled.h4`
 
 `
 
-export const ListParagraph = styled.p`
-    font-size: 18px;
-    line-height: 30px;
-    color: rgba(255,255,255, 0.75);
 
-    @media ${props=> props.theme.breakpoints.md} {
-        font-size: 15px;
-        line-height: 22px;
-    }
-
-    @media ${props=> props.theme.breakpoints.sm} {
-        font-size: 14px;
-        line-height: 20px;
-    }
-`
-
-export const ListItems = styled.li`
+export const ListRow = styled.li`
     max-width: 90vw;
     display:grid;
     grid-template-columns:auto auto auto auto;
@@ -101,12 +77,4 @@ export const ListItem = styled.div`
         width: 50%;
         
     }
-`
-
-export const ListIcon = styled.div`
-    display:flex;
-    width: 100%;
-    height: auto;
-    max-height: 80px;
-    margin-bottom: 10px;
 `

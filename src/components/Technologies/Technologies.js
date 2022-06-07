@@ -1,7 +1,7 @@
 import React from "react";
 import { Section, SectionTitle, SectionDivider, SectionText } from "../../styles/GlobalComponents/Section";
-import { List, ListContainer, ListItems, ListItem, ListTitle, ListIcon } from "./TechnologiesStyles";
-import {DiRuby, DiReact, DiRor,DiPython,DiPostgresql, DiNodejsSmall,DiMongodb, DiJavascript, DiJqueryLogo,DiHtml5,DiFirebase,DiCss3,DiBootstrap} from 'react-icons/di';
+import { List, ListRow, ListItem, ListTitle } from "./TechnologiesStyles";
+import {DiRuby, DiReact, DiRor,DiPython,DiPostgresql, DiNodejsSmall,DiJavascript, DiJqueryLogo,DiHtml5,DiFirebase,DiCss3,DiBootstrap} from 'react-icons/di';
 import {RiVuejsFill} from 'react-icons/ri';
 import {SiDocker, SiAmazonaws, SiFirebase} from 'react-icons/si';
 
@@ -16,7 +16,7 @@ const Technologies = () =>  (
       I've worked with a range of technologies in the web developement world. From back-end to Design and still keep learning new ones.
     </SectionText>
       <List>
-        <ListItems>
+        <ListRow>
           <ListItem>
             <DiHtml5 size="8rem"/>
             <ListTitle>HTML</ListTitle>
@@ -33,11 +33,10 @@ const Technologies = () =>  (
             <DiJqueryLogo size="8rem"/>
             <ListTitle>JQuery</ListTitle>
           </ListItem>
-        </ListItems>
+        </ListRow>
 
 
-        <ListItems>
-
+        <ListRow>
           <ListItem>
             <DiReact size="8rem"/>
           <ListTitle>React</ListTitle>
@@ -54,10 +53,10 @@ const Technologies = () =>  (
             <DiBootstrap size="8rem"/>
           <ListTitle>Bootstrap</ListTitle>
           </ListItem>
-        </ListItems>
+        </ListRow>
 
 
-        <ListItems>
+        <ListRow>
           <ListItem>
             <DiRor size="8rem"/>
           <ListTitle>Rails</ListTitle>
@@ -74,10 +73,10 @@ const Technologies = () =>  (
             <DiFirebase size="8rem"/>
           <ListTitle>Firebase</ListTitle>
           </ListItem>
-        </ListItems>
+        </ListRow>
 
-        
-        <ListItems>
+
+        <ListRow>
           <ListItem >
             <SiFirebase size="8rem"/>
           <ListTitle>Cloud Function</ListTitle>
@@ -94,7 +93,7 @@ const Technologies = () =>  (
             <SiAmazonaws size="8rem"/>
             <ListTitle>Coming Soon</ListTitle>
           </ListItem>
-        </ListItems>
+        </ListRow>
       </List>
 
   </Section>
