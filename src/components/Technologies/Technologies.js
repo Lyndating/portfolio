@@ -11,9 +11,9 @@ const Technologies = () =>  (
     <SectionDivider/>
     <br/>
     <br/>
-    <SectionTitle>Skills & Tools</SectionTitle>
+    <SectionTitle>Skills &amp; Tools</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in the web developement world. From back-end to Design and still keep learning new ones.
+      I&apos;ve worked with a range of technologies in the web developement world. From back-end to Design and still keep learning new ones.
     </SectionText>
       <List>
         <ListRow>
