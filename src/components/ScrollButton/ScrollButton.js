@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {BsArrowUpCircle} from 'react-icons/bs';
 import { TopButton} from './ScrollButtonStyles';
+import Link from 'next/link';
 
 
 const ScrollButton = () => {
@@ -27,6 +28,7 @@ const ScrollButton = () => {
     <TopButton>
         {" "}
         {visable && (
+            <Link href="/">
             <BsArrowUpCircle
                 style={{position:"fixed",bottom:"40px",right:"25px",zIndex:"21", color:"white" , cursor:"pointer",
                 ainimation:"movebtn 3s ease-in-out infinite", transition:"all 0.5s ease-in-out", 
@@ -34,6 +36,7 @@ const ScrollButton = () => {
                 size="4rem"
                 onClick={goToTop}
             />
+            </Link>
         )}{" "}
     </TopButton>
   )
