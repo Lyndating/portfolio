@@ -2,5 +2,5 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Demo
 
-![Click Here](https://ting-portfolio.vercel.app)
+[Click Here](https://ting-portfolio.vercel.app)
 
