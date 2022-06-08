@@ -37,7 +37,7 @@ const Header = () => {
                 </Link>
             </HeaderLi>
             <HeaderLi >
-                <NavLinks href='/resume-Ting-Luo.pdf' alt="resume" target="_blank" download>
+                <NavLinks href='/resume-TingLuo.pdf' alt="resume" target="_blank" download>
                         Resume
                 </NavLinks>
             </HeaderLi>

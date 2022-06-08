@@ -1,7 +1,5 @@
 import React from 'react';
-import { AiFillGithub, AiFillLinkedin,AiOutlineHeart } from 'react-icons/ai';
 import { FooterLi,FooterLinkList,FooterLink, FooterContainer,SocialIconsContainer, Small} from './FooterStyles';
-import {SocialIcons} from '../Header/HeaderStyles'
 
 const Footer = () => {
   return (
@@ -18,7 +16,7 @@ const Footer = () => {
             <FooterLink href='mailto:lynn.ting.luo@gmail.com'>Email</FooterLink>
         </FooterLi>
         <FooterLi>
-            <FooterLink href='/resume-Ting-Luo.pdf'download>Resume</FooterLink>
+            <FooterLink href='/resume-TingLuo.pdf'download>Resume</FooterLink>
         </FooterLi>
     </SocialIconsContainer>
     </FooterLinkList>
