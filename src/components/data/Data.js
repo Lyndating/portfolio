@@ -40,8 +40,8 @@ export const projectList = [
         description: "OnGoing project: learn to setup demo web application using Django framework. Try to get more pratices.",
         image:"./images/Project5.png",
         tags: ["Django", "Python"],
-        source: "https://www.djangoproject.com/start/",
-        demo: '#',
+        source: "https://github.com/Lyndating/Django_poetry_demo",
+        demo: 'https://www.djangoproject.com/start/',
         id: 4,
     },
         {
@@ -50,7 +50,7 @@ export const projectList = [
         image:"./images/Project6.png",
         tags: ["Ruby","Pyhton", "Javascript"],
         source: "https://github.com/Lyndating/euler-projects",
-        demo: '#',
+        demo: 'https://projecteuler.net',
         id: 5,
     }
 ];
