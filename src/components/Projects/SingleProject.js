@@ -2,12 +2,12 @@ import React,{useState,useEffect} from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 
 const SingleProject = ({id, image,title,description, tags, source, demo}) => {
-    const [disabled,setDisabled]=useState(false);
+    const [isDemo,setIsDemo]=useState(true);
     useEffect(()=>{
-        if(demo ==="#"){
-            setDisabled(true);
+        if(description.toLowerCase().includes("ongoing")){
+            setIsDemo(false);
         }else{
-            setDisabled(false);
+            setIsDemo(true);
         }
     },[]);
 
@@ -27,7 +27,7 @@ const SingleProject = ({id, image,title,description, tags, source, demo}) => {
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks disabled={disabled} href={demo} target="_blank">Live Demo</ExternalLinks>
+              <ExternalLinks href={demo} target="_blank">{!isDemo? "Doc Link" : "Live Demo"}</ExternalLinks>
               <ExternalLinks href={source} target="_blank">Github Source</ExternalLinks>
             </UtilityList>
         </BlogCard>
