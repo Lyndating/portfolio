@@ -72,7 +72,7 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
-  color: #e4e6e7;
+
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
@@ -94,7 +94,7 @@ export const UtilityList = styled.ul`
 export const ExternalLinks = styled.a`
 pointer-events: ${props=> props.disabled? "none" : ""};
 cursor: ${props=> props.disabled? "default" : "pointer"};
-color:#d4c0c0;
+
 font-size: 1.6rem;
 padding:1rem 1.5rem;
 background: #13ADC7;
@@ -111,6 +111,5 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
 font-size: 1.5rem;
 `
