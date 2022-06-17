@@ -3,6 +3,7 @@ import { Section, SectionTitle, SectionText } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { MainSection } from './HomeStyles';
 import {AiFillSmile } from 'react-icons/ai';
+import {FaLaptopCode} from 'react-icons/fa';
 
 const HomeSection = (props) => (
     <Section row nopadding marginbottom>
@@ -14,7 +15,7 @@ const HomeSection = (props) => (
                 I am Ting Luo 
             </SectionTitle>
             <SectionText>
-                Software Engineer<br/> | Love to learn & improve everyday <span><AiFillSmile size="2.5rem"/></span>
+                Software Engineer<br/><FaLaptopCode size="2.5rem" style={{paddingTop:"0.5rem"}}/>  Love to learn  &amp; improve everyday
             </SectionText>
             <br/>
             <br/>
