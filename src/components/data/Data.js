@@ -36,8 +36,8 @@ export const projectList = [
         id: 3,
     },
     {
-        title: "Django-poetry-demo",
-        description: "OnGoing project: learn to setup demo web application using Django framework. Try to get more pratices.",
+        title: "Django-project-demo",
+        description: "Ongoing project: learn to setup demo web application using Django framework. Try to get more pratices.",
         image:"./images/Project5.png",
         tags: ["Django", "Python"],
         source: "https://github.com/Lyndating/Django_poetry_demo",
@@ -45,8 +45,8 @@ export const projectList = [
         id: 4,
     },
         {
-        title: "Project Euler Algorithm",
-        description: "OnGoing project: keep working on the questions by using different programming languages.",
+        title: "Project Euler",
+        description: "Ongoing project: keep working on the algorithm problems using different programming languages.",
         image:"./images/Project6.png",
         tags: ["Ruby","Pyhton", "Javascript"],
         source: "https://github.com/Lyndating/euler-projects",
