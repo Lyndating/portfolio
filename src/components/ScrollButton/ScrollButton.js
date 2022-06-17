@@ -28,8 +28,6 @@ const ScrollButton = () => {
         myButtonClass: {
             '&:hover':{
             animation: 'none',
-            background: '#fff',
-            color: 'hsl(204,23.8%,95.9%)',
             border: '2px solid #fff',
             },
             "@keyframes movebtn": {
@@ -57,13 +55,15 @@ const ScrollButton = () => {
         {" "}
         {visable && (
             <Link href="/">
+            <div id="scroll_button">
             <BsArrowUpCircle className={styles.myButtonClass}
-                style={{position:"fixed",bottom:"40px",right:"25px",zIndex:"21", color:"white" , cursor:"pointer",
+                style={{position:"fixed",bottom:"40px",right:"25px",zIndex:"21", cursor:"pointer",
                 ainimation:"movebtn 3s ease-in-out infinite", transition:"all 0.5s ease-in-out", 
                 }}
                 size="4rem"
                 onClick={goToTop}
             />
+            </div>
             </Link>
         )}{" "}
     </TopButton>
