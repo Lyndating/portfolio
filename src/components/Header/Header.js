@@ -9,7 +9,7 @@ const Header = () => {
     <Container>
         <Div1>
             <Link href="/">
-                <a style={{display: "flex", alignItems:"center", color:"white",}}>
+                <a style={{display: "flex", alignItems:"center"}}>
                     <AiFillSmile size="3rem"/><span style={{fontSize:"2rem", marginLeft:"5px"}}> &lt;Ting&gt; </span>
                 </a>
             </Link>
@@ -38,7 +38,7 @@ const Header = () => {
             </HeaderLi>
             <HeaderLi >
                 <NavLinks href='/resume-TingLuo.pdf' alt="resume" target="_blank" download>
-                        Resume
+                    Résumé
                 </NavLinks>
             </HeaderLi>
         </Div2>

@@ -63,10 +63,10 @@ export const NavLinks = styled.a`
     font-size: 2rem;
     line-height: 30px;
     text-decoration: none;
-    color: rgba(255,255,255,0.75);
+ 
     transition: 0.4s ease;
     &:hover {
-        color: #fff;
+        
         opacity: 1;
         cursor: pointer;
     }
@@ -80,7 +80,7 @@ export const NavLinks = styled.a`
 export const HeaderLi= styled.li`
 	display: inline-block;
   	position: relative;
-	color: ${props=> props.theme.colors.primary1};
+	
     margin-right: 45px;
     list-style-type: none;
 	&:after {
@@ -91,7 +91,7 @@ export const HeaderLi= styled.li`
   		height: 2px;
   		bottom: 0;
   		left: 0;
-  		background-color: ${props=> props.theme.colors.primary1};
+
   		transform-origin: bottom right;
   		transition: transform 0.25s ease-out;
 	}
@@ -126,7 +126,7 @@ export const NavIcons = styled(IoIosArrowDropdownCircle)`
 `
 
 export const SocialIcons = styled.a`
-    color: white;
+   
     padding: 10px;
     border-radius: 50px;
     transition: 0.3s ease;
