@@ -17,19 +17,19 @@ const Technologies = () =>  (
     </SectionText>
       <List>
         <ListRow>
-          <ListItem>
+          <ListItem id="skill_items">
             <DiHtml5 size="8rem"/>
             <ListTitle>HTML</ListTitle>
           </ListItem>
-          <ListItem>
+          <ListItem id="skill_items">
             <DiCss3 size="8rem"/>
           <ListTitle>CSS</ListTitle>
           </ListItem>
-          <ListItem>
+          <ListItem id="skill_items">
             <DiJavascript size="8rem"/>
           <ListTitle>JavaScript</ListTitle>
-          </ListItem>
-          <ListItem>
+          </ListItem >
+          <ListItem id="skill_items">
             <DiJqueryLogo size="8rem"/>
             <ListTitle>JQuery</ListTitle>
           </ListItem>
@@ -37,19 +37,19 @@ const Technologies = () =>  (
 
 
         <ListRow>
-          <ListItem>
+          <ListItem id="skill_items">
             <DiReact size="8rem"/>
           <ListTitle>React</ListTitle>
           </ListItem>
-          <ListItem>
+          <ListItem id="skill_items">
             <DiNodejsSmall size="8rem"/>
           <ListTitle>Node</ListTitle>
           </ListItem>
-          <ListItem>
+          <ListItem id="skill_items">
             <RiVuejsFill size="8rem"/>
             <ListTitle>Vue</ListTitle>
           </ListItem>
-          <ListItem>
+          <ListItem id="skill_items">
             <DiBootstrap size="8rem"/>
           <ListTitle>Bootstrap</ListTitle>
           </ListItem>
@@ -57,19 +57,19 @@ const Technologies = () =>  (
 
 
         <ListRow>
-          <ListItem>
+          <ListItem id="skill_items">
             <DiRor size="8rem"/>
           <ListTitle>Rails</ListTitle>
           </ListItem>
-          <ListItem>
+          <ListItem  id="skill_items">
             <DiRuby size="8rem"/>
           <ListTitle>Ruby</ListTitle>
           </ListItem>
-          <ListItem>
+          <ListItem id="skill_items"> 
             <DiPostgresql size="8rem"/>
           <ListTitle>PostgresSQL</ListTitle>
           </ListItem>
-          <ListItem>
+          <ListItem id="skill_items">
             <DiFirebase size="8rem"/>
           <ListTitle>Firebase</ListTitle>
           </ListItem>
@@ -77,19 +77,19 @@ const Technologies = () =>  (
 
 
         <ListRow>
-          <ListItem >
+          <ListItem id="skill_items">
             <SiFirebase size="8rem"/>
           <ListTitle>Cloud Function</ListTitle>
           </ListItem>
-          <ListItem >
+          <ListItem id="skill_items">
             <DiPython size="8rem"/>
           <ListTitle>Python</ListTitle>
           </ListItem>
-          <ListItem >
+          <ListItem id="skill_items">
             <SiDocker size="8rem"/>
           <ListTitle>Docker</ListTitle>
           </ListItem>
-          <ListItem >
+          <ListItem id="skill_items">
             <SiAmazonaws size="8rem"/>
             <ListTitle>Coming Soon</ListTitle>
           </ListItem>
