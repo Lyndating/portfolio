@@ -15,7 +15,7 @@ const HomeSection = (props) => (
                 I am Ting Luo 
             </SectionTitle>
             <SectionText>
-                Software Engineer<br/><FaLaptopCode size="2.5rem" style={{paddingTop:"0.5rem"}}/>  Love to learn  &amp; improve everyday
+                Software Engineer<br/><FaLaptopCode size="2.5rem" style={{paddingTop:"0.5rem", paddingRight:"0.5rem"}}/>  Love to learn  &amp; improve everyday
             </SectionText>
             <br/>
             <br/>
