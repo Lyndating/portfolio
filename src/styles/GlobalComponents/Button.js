@@ -3,8 +3,7 @@ import styled from 'styled-components';
 
 export const ButtonFront = styled.button`
     border:none;
-    border-radius: 50px;
-    color: #fff;
+    border-radius: 50px;  
     display:flex;
     position: absolute;
     top: 0;
@@ -17,7 +16,7 @@ export const ButtonFront = styled.button`
     cursor: pointer;
     justify-content: center;
     box-shadow: ${({disabled})=> disabled? 'inset 0px 2px 1px rgba(46,49,55,0.15), inset 0px 0px 4px rgba(20,20,55,0.3)' : "none"};
-    background: ${({alt})=> alt? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)" :"linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)"};
+
     opacity: ${({disabled})=> disabled? "0.5" : "1"};
     transition: 0.4s ease;
 
