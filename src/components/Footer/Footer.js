@@ -16,7 +16,7 @@ const Footer = () => {
             <FooterLink href='mailto:lynn.ting.luo@gmail.com'>Email</FooterLink>
         </FooterLi>
         <FooterLi>
-            <FooterLink href='/resume-TingLuo.pdf'download>Resume</FooterLink>
+            <FooterLink href='/resume-TingLuo.pdf'download>Résumé</FooterLink>
         </FooterLi>
     </SocialIconsContainer>
     </FooterLinkList>
