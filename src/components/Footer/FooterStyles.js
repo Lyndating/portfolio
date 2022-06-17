@@ -64,7 +64,7 @@ export const FooterLi= styled.li`
   		height: 2px;
   		bottom: 0;
   		left: 0;
-  		background-color: ${props=> props.theme.colors.primary1};
+
   		transform-origin: bottom right;
   		transition: transform 0.25s ease-out;
 	}
