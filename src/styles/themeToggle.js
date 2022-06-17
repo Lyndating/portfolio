@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react';
-import {MdBrightness5, MdBedtime} from 'react-icons/md';
+import {BsSun, BsMoonStars} from 'react-icons/bs';
 import styled from 'styled-components';
 
 const Div = styled.div `
@@ -22,7 +22,7 @@ const ThemeToggle = (props) => {
 
   return (
     <Div onClick={changeModeHandler}>
-        {colorMode==="dark"? <MdBrightness5 size="2.5rem"/> : <MdBedtime size="2.5rem"/>}
+        {colorMode==="dark"? <BsSun size="2.5rem"/> : <BsMoonStars size="2.5rem"/>}
     </Div>
   ) 
 }
