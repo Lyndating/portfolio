@@ -18,10 +18,11 @@ const ThemeToggle = (props) => {
     }
     useEffect(()=>{
         document.body.dataset.theme = colorMode;
+        
     },[colorMode]);
 
   return (
-    <Div onClick={changeModeHandler}>
+    <Div onClick={changeModeHandler} >
         {colorMode==="dark"? <BsSun size="2.5rem"/> : <BsMoonStars size="2.5rem"/>}
     </Div>
   ) 
