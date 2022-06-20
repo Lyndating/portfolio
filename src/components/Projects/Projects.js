@@ -6,7 +6,7 @@ import SingleProject from './SingleProject';
 
 const Projects = () => (
   <Section  id="projects">
-    <SectionDivider />
+    <SectionDivider id="section_divider"/>
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer >
       {projectList.map(({id, image,title,description, tags, source, demo}) => {

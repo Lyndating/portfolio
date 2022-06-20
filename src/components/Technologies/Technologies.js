@@ -8,7 +8,7 @@ import {SiDocker, SiAmazonaws, SiFirebase} from 'react-icons/si';
 
 const Technologies = () =>  (
   <Section id="technologies">
-    <SectionDivider/>
+    <SectionDivider id="section_divider"/>
     <br/>
     <br/>
     <SectionTitle>Skills &amp; Tools</SectionTitle>

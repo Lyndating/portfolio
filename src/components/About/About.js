@@ -5,7 +5,7 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 const About = () => {
   return (
     <Section id="about">
-    <SectionDivider/>
+    <SectionDivider id="section_divider"/>
     <br/>
     <br/>
     <SectionTitle>About Me</SectionTitle>
