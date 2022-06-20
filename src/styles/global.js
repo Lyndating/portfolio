@@ -81,6 +81,10 @@ const GlobalStyle = createGlobalStyle`
             transition: color 500ms ease-in-out;
         }
     }
+    #section_divider {
+        background: var(--color-button);
+        
+    }
     
 `;
 
