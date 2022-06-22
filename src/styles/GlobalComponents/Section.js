@@ -46,6 +46,7 @@ export const SectionTitle = styled.h2`
     line-height: ${(props) => props.main ? '32px' : '40px'};
     margin-bottom: 8px;
     padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    padding-left: ${(props)=> props.small? "20px":"0"};
     max-width: 100%;
   }
 `
@@ -67,6 +68,7 @@ export const SectionText = styled.p`
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 16px;
+    padding-left: ${(props)=> props.small? "20px":"0"};
   }
 `
 
