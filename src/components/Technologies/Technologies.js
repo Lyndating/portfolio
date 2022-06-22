@@ -62,7 +62,7 @@ const Technologies = () =>  (
           <ListTitle>Rails</ListTitle>
           </ListItem>
           <ListItem  id="skill_items">
-            <DiRuby size="8rem"/>
+            <DiRuby size="7rem"/>
           <ListTitle>Ruby</ListTitle>
           </ListItem>
           <ListItem id="skill_items"> 
@@ -79,7 +79,7 @@ const Technologies = () =>  (
         <ListRow>
           <ListItem id="skill_items">
             <SiFirebase size="8rem"/>
-          <ListTitle>Cloud Function</ListTitle>
+          <ListTitle coming>Cloud Function</ListTitle>
           </ListItem>
           <ListItem id="skill_items">
             <DiPython size="8rem"/>

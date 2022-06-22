@@ -39,7 +39,7 @@ export const ListTitle = styled.h4`
     }
 
     @media ${props => props.theme.breakpoints.sm} {
-        font-size: 18px;
+        font-size: 15px;
         ling-height: 28px;
         margin-bottom: 4px;
         letter-spacing: 0.02em;
@@ -62,7 +62,7 @@ export const ListRow = styled.li`
 `
 
 export const ListItem = styled.div`
-    width: ${props=> props.coming? "260px": "170px"};
+    width: ${props=> props.coming? "80%": "90%"};
     display:flex;
     flex-direction:column;
     align-items: center;
@@ -74,7 +74,7 @@ export const ListItem = styled.div`
     @media ${props => props.theme.breakpoints.sm} {
         margin-bottom: 14px;
         max-width: 320px;
-        width: 50%;
-        
+        width: 100%;
+        align-items: center;
     }
 `
