@@ -26,10 +26,9 @@ export const List = styled.ul`
 
 
 export const ListTitle = styled.h4`
-    font-size: 20px;
+    font-size: ${props => props.coming? "15px" : "20px"};
     font-weight: 600;
     line-height: 30px;
-    
     letter-spacing: 0.02em;
     margin-bottom: 10px;
 
@@ -62,7 +61,7 @@ export const ListRow = styled.li`
 `
 
 export const ListItem = styled.div`
-    width: ${props=> props.coming? "80%": "90%"};
+    width: 200px;
     display:flex;
     flex-direction:column;
     align-items: center;
